@@ -1,0 +1,24 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t [ babelify --presets [ react ] ] src/index.js -o build/bundle.js",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.1.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-polymer": "^2.0.2",
+    "watch": "^0.18.0"
+  }
+}

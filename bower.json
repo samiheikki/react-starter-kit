@@ -1,0 +1,20 @@
+{
+  "name": "react-project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sami Suo-Heikki <samiheikki@vaadin.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vaadin-charts": "#feature/react-component"
+  }
+}
